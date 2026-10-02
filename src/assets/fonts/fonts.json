@@ -1,0 +1,462 @@
+﻿[
+  {
+    "file": "BeVietnamPro-Regular.ttf",
+    "name": ["BeVietnamPro", "Be Vietnam Pro", "BeVietnamPro-Regular", "bevietnampro", "VN_VNI", "vn_vni", "VN_VNI.SHX", "vn_vni.shx", "txt", "txt.shx"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-Italic.ttf",
+    "name": ["BeVietnamPro-Italic", "Be Vietnam Pro Italic", "vnarial", ".vnarial", "ariali", "vntimeh"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-Medium.ttf",
+    "name": ["BeVietnamPro-Medium", "Be Vietnam Pro Medium"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-MediumItalic.ttf",
+    "name": ["BeVietnamPro-MediumItalic", "Be Vietnam Pro Medium Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-SemiBold.ttf",
+    "name": ["BeVietnamPro-SemiBold", "Be Vietnam Pro SemiBold"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-Bold.ttf",
+    "name": ["BeVietnamPro-Bold", "Be Vietnam Pro Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-BoldItalic.ttf",
+    "name": ["BeVietnamPro-BoldItalic", "Be Vietnam Pro Bold Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-Light.ttf",
+    "name": ["BeVietnamPro-Light", "Be Vietnam Pro Light"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-LightItalic.ttf",
+    "name": ["BeVietnamPro-LightItalic", "Be Vietnam Pro Light Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-Thin.ttf",
+    "name": ["BeVietnamPro-Thin", "Be Vietnam Pro Thin"],
+    "type": "mesh"
+  },
+  {
+    "file": "BeVietnamPro-Black.ttf",
+    "name": ["BeVietnamPro-Black", "Be Vietnam Pro Black"],
+    "type": "mesh"
+  },
+  {
+    "file": "JosefinSans-Regular.ttf",
+    "name": ["Josefin Sans", "JosefinSans", "JosefinSans-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Inter-Regular.ttf",
+    "name": ["Inter", "Inter-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "RobotoCondensed-Regular.ttf",
+    "name": ["Roboto Condensed", "RobotoCondensed", "RobotoCondensed-Regular", "Arial Narrow", "arialnarrow", "arialnarrow.ttf", "arial narrow"],
+    "type": "mesh"
+  },
+  {
+    "file": "RobotoCondensed-Bold.ttf",
+    "name": ["RobotoCondensed-Bold", "Roboto Condensed Bold", "Arial Narrow Bold", "arialnb"],
+    "type": "mesh"
+  },
+  {
+    "file": "RobotoCondensed-Italic.ttf",
+    "name": ["RobotoCondensed-Italic", "Roboto Condensed Italic", "Arial Narrow Italic", "arialni"],
+    "type": "mesh"
+  },
+  {
+    "file": "BarlowCondensed-Regular.ttf",
+    "name": ["Barlow Condensed", "BarlowCondensed", "BarlowCondensed-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "BarlowCondensed-Bold.ttf",
+    "name": ["BarlowCondensed-Bold", "Barlow Condensed Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "BarlowCondensed-Italic.ttf",
+    "name": ["BarlowCondensed-Italic", "Barlow Condensed Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "SairaCondensed-Regular.ttf",
+    "name": ["Saira Condensed", "SairaCondensed", "SairaCondensed-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "SairaCondensed-Bold.ttf",
+    "name": ["SairaCondensed-Bold", "Saira Condensed Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "ArchivoNarrow-Regular.ttf",
+    "name": ["Archivo Narrow", "ArchivoNarrow", "ArchivoNarrow-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "ArchivoNarrow-Bold.ttf",
+    "name": ["ArchivoNarrow-Bold", "Archivo Narrow Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "ArchivoNarrow-Italic.ttf",
+    "name": ["ArchivoNarrow-Italic", "Archivo Narrow Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "Cousine-Regular.ttf",
+    "name": ["Cousine", "Cousine-Regular", "Courier New", "courier new", "courier", "cour.ttf", "cour"],
+    "type": "mesh"
+  },
+  {
+    "file": "Cousine-Bold.ttf",
+    "name": ["Cousine-Bold", "Cousine Bold", "Courier New Bold", "courbd"],
+    "type": "mesh"
+  },
+  {
+    "file": "Cousine-Italic.ttf",
+    "name": ["Cousine-Italic", "Cousine Italic", "Courier New Italic", "couri"],
+    "type": "mesh"
+  },
+  {
+    "file": "PT_Sans-Web-Regular.ttf",
+    "name": ["PT Sans", "PTSans", "PT_Sans-Web-Regular", "svn-pt sans"],
+    "type": "mesh"
+  },
+  {
+    "file": "PT_Sans-Web-Bold.ttf",
+    "name": ["PT Sans Bold", "PT_Sans-Web-Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "PT_Sans-Web-Italic.ttf",
+    "name": ["PT Sans Italic", "PT_Sans-Web-Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "PT_Serif-Web-Regular.ttf",
+    "name": ["PT Serif", "PTSerif", "PT_Serif-Web-Regular", "svn-pt serif"],
+    "type": "mesh"
+  },
+  {
+    "file": "PT_Serif-Web-Bold.ttf",
+    "name": ["PT Serif Bold", "PT_Serif-Web-Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "PT_Serif-Web-Italic.ttf",
+    "name": ["PT Serif Italic", "PT_Serif-Web-Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "Lexend-Regular.ttf",
+    "name": ["Lexend", "Lexend-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Lexend-Bold.ttf",
+    "name": ["Lexend-Bold", "Lexend Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "Cabin-Regular.ttf",
+    "name": ["Cabin", "Cabin-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Cabin-Bold.ttf",
+    "name": ["Cabin-Bold", "Cabin Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "Cabin-Italic.ttf",
+    "name": ["Cabin-Italic", "Cabin Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "Quicksand-Regular.ttf",
+    "name": ["Quicksand", "Quicksand-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Quicksand-Bold.ttf",
+    "name": ["Quicksand-Bold", "Quicksand Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "Oswald-Regular.ttf",
+    "name": ["Oswald", "Oswald-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Oswald-Bold.ttf",
+    "name": ["Oswald-Bold", "Oswald Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "Exo2-Regular.ttf",
+    "name": ["Exo 2", "Exo2", "Exo2-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Exo2-Bold.ttf",
+    "name": ["Exo2-Bold", "Exo 2 Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "Exo2-Italic.ttf",
+    "name": ["Exo2-Italic", "Exo 2 Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "MavenPro-Regular.ttf",
+    "name": ["Maven Pro", "MavenPro", "MavenPro-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "MavenPro-Bold.ttf",
+    "name": ["MavenPro-Bold", "Maven Pro Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "Nunito-Regular.ttf",
+    "name": ["Nunito", "Nunito-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Nunito-Bold.ttf",
+    "name": ["Nunito-Bold", "Nunito Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "PlayfairDisplay-Regular.ttf",
+    "name": ["Playfair Display", "PlayfairDisplay", "PlayfairDisplay-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "PlayfairDisplay-Bold.ttf",
+    "name": ["PlayfairDisplay-Bold", "Playfair Display Bold"],
+    "type": "mesh"
+  },
+  {
+    "file": "PlayfairDisplay-Italic.ttf",
+    "name": ["PlayfairDisplay-Italic", "Playfair Display Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "IBMPlexSerif-Regular.ttf",
+    "name": ["IBM Plex Serif", "IBMPlexSerif", "IBMPlexSerif-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Merriweather-Regular.ttf",
+    "name": ["Merriweather", "Merriweather-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "SourceSerif4-Italic.ttf",
+    "name": ["SourceSerif4-Italic", "Source Serif 4 Italic", "timesi", "timesi.ttf"],
+    "type": "mesh"
+  },
+  {
+    "file": "NotoSerif-Regular.ttf",
+    "name": ["Noto Serif", "NotoSerif", "NotoSerif-Regular", "vncentury-schoolbook", ".VnCentury", "VnCentury"],
+    "type": "mesh"
+  },
+  {
+    "file": "NotoSerif-Italic.ttf",
+    "name": ["NotoSerif-Italic", "Noto Serif Italic", "vncentury-schoolbook italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "IBMPlexSans-Regular.ttf",
+    "name": ["IBM Plex Sans", "IBMPlexSans", "IBMPlexSans-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "SourceSans3-Regular.ttf",
+    "name": ["Source Sans 3", "SourceSans3", "SourceSans3-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "SourceSans3-Italic.ttf",
+    "name": ["SourceSans3-Italic", "Source Sans 3 Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "OpenSans-Regular.ttf",
+    "name": ["Open Sans", "OpenSans", "OpenSans-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "OpenSans-Italic.ttf",
+    "name": ["OpenSans-Italic", "Open Sans Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "Lora-Regular.ttf",
+    "name": ["Lora", "Lora-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Lora-Italic.ttf",
+    "name": ["Lora-Italic", "Lora Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "WorkSans-Regular.ttf",
+    "name": ["Work Sans", "WorkSans", "WorkSans-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Mulish-Regular.ttf",
+    "name": ["Mulish", "Mulish-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "NunitoSans-Regular.ttf",
+    "name": ["Nunito Sans", "NunitoSans", "NunitoSans-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Manrope-Regular.ttf",
+    "name": ["Manrope", "Manrope-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "LibreFranklin-Regular.ttf",
+    "name": ["Libre Franklin", "LibreFranklin", "LibreFranklin-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Roboto-Regular.ttf",
+    "name": ["Roboto", "Roboto-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "RobotoSlab-Regular.ttf",
+    "name": ["Roboto Slab", "RobotoSlab", "RobotoSlab-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Montserrat-Regular.ttf",
+    "name": ["Montserrat", "Montserrat-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Lato-Regular.ttf",
+    "name": ["Lato", "Lato-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Lato-Italic.ttf",
+    "name": ["Lato-Italic", "Lato Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "FiraSans-Regular.ttf",
+    "name": ["Fira Sans", "FiraSans", "FiraSans-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "FiraSans-Italic.ttf",
+    "name": ["FiraSans-Italic", "Fira Sans Italic"],
+    "type": "mesh"
+  },
+  {
+    "file": "SourceSerif4-Regular.ttf",
+    "name": ["Source Serif 4", "SourceSerif4", "SourceSerif4-Regular"],
+    "type": "mesh"
+  },
+  {
+    "file": "Arimo-Regular.ttf",
+    "name": ["Arimo", "Arial", "arial", "arial.ttf", "arial unicode ms", "arial unicode ms.ttf", "svn-arial", ".VnArial", "VnArial", "VNI-Arial", "vni-arial"],
+    "type": "mesh"
+  },
+  {
+    "file": "Tinos-Regular.ttf",
+    "name": ["Tinos", "Times New Roman", "times new roman", "times.ttf", "svn-times new roman", ".VnTime", "VnTime", "VNI-Times", "vni times"],
+    "type": "mesh"
+  },
+  {
+    "file": "NotoSans-Regular.ttf",
+    "name": ["Noto Sans", "NotoSans-Regular", "tahoma", "tahoma.ttf", "verdana", "verdana.ttf", "segoe ui", "segoeui.ttf"],
+    "type": "mesh"
+  },
+  {
+    "file": "Carlito-Regular.ttf",
+    "name": ["Carlito", "calibri", "calibri.ttf"],
+    "type": "mesh"
+  },
+  {
+    "file": "vni-times.shx",
+    "name": ["vni-times", "vni-times.shx"],
+    "type": "mesh"
+  },
+  {
+    "file": "vni-helve.shx",
+    "name": ["vni-helve", "vni-helve.shx", "vnhelve", ".VnHelve", "VnHelve", "VNI-Helve"],
+    "type": "mesh"
+  },
+  {
+    "file": "vntime.shx",
+    "name": ["vntime", "vntime.shx", "VNTIME__", ".vntime"],
+    "type": "mesh"
+  },
+  {
+    "file": "TCVN3txt.shx",
+    "name": ["TCVN3", "TCVN3txt", "TCVN3txt.shx", "TCVN3TXT", "tcvn3"],
+    "type": "mesh"
+  },
+  {
+    "file": "txt.shx",
+    "name": ["txt-iso", "txt-latin"],
+    "type": "mesh"
+  },
+  {
+    "file": "romans.shx",
+    "name": ["romans", "romans.shx"],
+    "type": "mesh"
+  },
+  {
+    "file": "simplex.shx",
+    "name": ["simplex", "simplex.shx"],
+    "type": "mesh"
+  },
+  {
+    "file": "NotoSansDisplay-SemiCondensedLightItalic.ttf",
+    "name": ["Noto Sans Disp SemCond Light"],
+    "type": "mesh"
+  },
+  {
+    "file": "HanaMinA.ttf",
+    "name": ["HanaMinA"],
+    "type": "mesh"
+  },
+  {
+    "file": "NanumGothic-Regular.ttf",
+    "name": ["NanumGothic"],
+    "type": "mesh"
+  },
+  {
+    "file": "Roboto-LightItalic.ttf",
+    "name": ["Roboto Light"],
+    "type": "mesh"
+  }
+]
