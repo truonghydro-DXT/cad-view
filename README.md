@@ -1,117 +1,123 @@
-# CAD Viewer Example
+# CAD Viewer
 
-This is an example application that demonstrates how to use the `@mlightcad/cad-viewer` component with a full-featured Vue.js interface.
+Ứng dụng demo Vue 3 để mở, xem và xử lý bản vẽ CAD định dạng DWG/DXF trong trình duyệt, với nhiều tính năng hỗ trợ công việc khảo sát, kiểm tra tọa độ và xuất dữ liệu.
 
-[**🌐 Live Demo**](https://mlightcad.github.io/cad-viewer-example/)
+Dự án sử dụng các gói `@mlightcad/cad-viewer`, `@mlightcad/cad-simple-viewer` và `@mlightcad/data-model` để hiển thị bản vẽ 2D/3D theo phong cách CAD, đồng thời tích hợp các tiện ích địa lý và chuyển đổi tọa độ VN2000/WGS84.
 
-## Features
+## Tính năng chính
 
-- 🎨 **Full UI Interface**: Complete CAD viewer with toolbars, menus, and status bar
-- 🌐 **Internationalization**: Multi-language support (English and Chinese)
-- 🎯 **Advanced Controls**: Layer management, point styles, settings, and more
-- 📁 **File Support**: DXF and DWG file loading with drag & drop
+- Mở file `.dwg` / `.dxf` từ máy tính hoặc kéo thả vào giao diện
+- Hiển thị bản vẽ CAD với toolbar, layer, zoom/pan, grid và các công cụ chỉnh sửa cơ bản
+- Hỗ trợ overlay nền bản đồ OSM (OpenStreetMap) để đối chiếu vị trí địa lý
+- Chuyển đổi hệ tọa độ VN2000 -> WGS84 với dữ liệu hệ quy chiếu địa phương
+- Xuất bản vẽ ra DXF và PDF
+- Xử lý file lớn bằng cơ chế worker và fallback WebGL/fallback CPU
+- Giao diện hỗ trợ đa ngôn ngữ và dễ tùy biến theo nhu cầu
 
-## Development
+## Công nghệ
+
+- Vue 3 + Vite
+- Element Plus
+- TypeScript
+- `@mlightcad/cad-viewer` / `@mlightcad/cad-simple-viewer`
+- `@mlightcad/data-model`
+- `proj4` và các tiện ích chuyển đổi tọa độ
+- Python helper để chuẩn bị môi trường xử lý DXF/DWG
+
+## Cấu trúc dự án
+
+```text
+.
+├── src/                  # mã nguồn giao diện và logic CAD viewer
+├── scripts/              # setup môi trường Python
+├── extract-data-dxf/     # script chuyển đổi DWG/DXF
+├── VN2000_TM/            # file định nghĩa hệ tọa độ VN2000 TM
+├── data/                 # dữ liệu mẫu
+├── src/assets/           # font, hình ảnh và tài nguyên nền tảng
+├── dist/                 # output build
+├── package.json
+├── pnpm-lock.yaml
+├── vite.config.ts
+├── LICENSE
+├── README.md
+└── TODO.md
+```
+
+## Yêu cầu môi trường
+
+- Node.js 18+
+- pnpm
+- Python 3 (để setup môi trường xử lý DXF/DWG)
+
+## Khởi động nhanh
+
+Cài đặt phụ thuộc:
 
 ```bash
-# Install dependencies
 pnpm install
-pnpm config set store-dir D:\.pnpm-store
-Remove-Item -Recurse -Force node_modules
-pnpm install --frozen-lockfile
+```
 
-pnpm add proj4
+Tạo môi trường Python cần thiết cho các script DWG/DXF:
 
-# Start development server
+```bash
+pnpm setup:python
+```
+
+Chạy ứng dụng ở chế độ dev:
+
+```bash
 pnpm dev
+```
 
-# Build for production
+Build production:
+
+```bash
 pnpm build
+```
 
-# Preview production build
+Preview bản build:
+
+```bash
 pnpm preview
 ```
 
-### Optional runtime flags
+## Ghi chú Windows / pnpm
 
-- `VITE_FORCE_MAIN_THREAD_DRAW=true` forces the viewer to use the CPU fallback path.
-- `VITE_ENABLE_OSM_OVERLAY=false` disables the OSM overlay during CAD viewing.
-- `VITE_LARGE_FILE_MODE_THRESHOLD_MB=150` adjusts when the app enables large-file fast path.
-- `VITE_LARGE_FILE_MINIMUM_CHUNK_SIZE=12000` entity conversion chunk size for large files.
-- `VITE_LARGE_FILE_RENDER_CHUNK_SIZE=800` Three.js convert yield size for large files.
-- `VITE_PARSER_TIMEOUT_MAX_MS=600000` max parser worker timeout for big DWG/DXF files.
+Nếu đang dùng hệ thống lưu cache pnpm ở một ổ đĩa riêng, có thể cấu hình trước khi cài:
 
-## Usage
-
-Firstly, add the following dependencies into your package.json.
-
-- @mlightcad/cad-simple-viewer
-- @mlightcad/cad-viewer
-- @mlightcad/data-model
-- element-plus
-- vue
-- vue-i18n
-
-Secondly, add the following code in your Vue component.
-
-
-```vue
-<template>
-  <MlCadViewer locale="zh" url="https://cdn.jsdelivr.net/gh/mlightcad/cad-data/data/anteen.dwg" />
-</template>
-
-<script setup lang="ts">
-import { MlCadViewer } from '@mlightcad/cad-viewer'
-</script>
+```bash
+pnpm config set store-dir D:\.pnpm-store
 ```
 
-Finally, copy the following files to **dist/assets** folder.
+Dự án cũng có file `run_server.bat` dùng cho môi trường Windows để tự kiểm tra dependencies và khởi động Vite.
 
-- ./node_modules/@mlightcad/data-model/dist/dxf-parser-worker.js
-- ./node_modules/@mlightcad/cad-simple-viewer/dist/libredwg-parser-worker.js
-- ./node_modules/@mlightcad/cad-simple-viewer/dist/mtext-renderer-worker.js
+## Biến môi trường tùy chọn
 
-Those files are used to parser dxf/dwg files in web worker so that UI not blocked. You can copy those files to folder **dist/assets** manually.
-However, vite-plugin-static-copy is recommended to make your life easier.
+Một số tính năng có thể điều chỉnh bằng biến môi trường khi chạy dev/build:
 
-```typescript
-import { defineConfig } from 'vite'
-import { viteStaticCopy } from 'vite-plugin-static-copy'
-import vue from '@vitejs/plugin-vue'
-
-export default defineConfig(() => {
-  const plugins = [
-    vue(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: './node_modules/@mlightcad/data-model/dist/dxf-parser-worker.js',
-          dest: 'assets'
-        },
-        {
-          src: './node_modules/@mlightcad/cad-simple-viewer/dist/*-worker.js',
-          dest: 'assets'
-        }
-      ]
-    })
-  ]
-
-  return {
-    base: './',
-    build: {
-      outDir: 'dist',
-      modulePreload: false,
-      rollupOptions: {
-        // Main entry point for the app
-        input: {
-          main: 'index.html'
-        }
-      }
-    },
-    plugins: plugins
-  }
-})
+```bash
+VITE_FORCE_MAIN_THREAD_DRAW=true
+VITE_ENABLE_OSM_OVERLAY=false
+VITE_LARGE_FILE_MODE_THRESHOLD_MB=150
+VITE_LARGE_FILE_MINIMUM_CHUNK_SIZE=12000
+VITE_LARGE_FILE_RENDER_CHUNK_SIZE=800
+VITE_PARSER_TIMEOUT_MAX_MS=600000
 ```
+
+Mục đích:
+
+- `VITE_FORCE_MAIN_THREAD_DRAW`: buộc renderer chạy theo fallback CPU
+- `VITE_ENABLE_OSM_OVERLAY`: bật/tắt overlay OSM
+- các biến `VITE_LARGE_FILE_*`: điều chỉnh xử lý file lớn
+- `VITE_PARSER_TIMEOUT_MAX_MS`: tăng thời gian chờ worker parse file lớn
+
+## Sử dụng ứng dụng
+
+1. Mở trình duyệt theo local dev URL của Vite.
+2. Chọn hoặc kéo thả file DWG/DXF vào màn hình chính.
+3. Sử dụng các công cụ trên thanh công cụ để zoom, pan, chỉnh sửa và xem dữ liệu.
+4. Nếu cần chuyển đổi hệ tọa độ, mở chức năng `VN2000 -> WGS84`.
+5. Xuất ra PDF hoặc DXF khi cần chia sẻ / lưu trữ bản vẽ.
 
 ## License
 
